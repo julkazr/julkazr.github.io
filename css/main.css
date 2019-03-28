@@ -8,6 +8,10 @@
        font-weight: bold;
    }
 
+   .mobile-menu-style {
+       background-color: #f8f8f8!important;
+   }
+
    .parallax1 {
         background-image: url(../img/girl.jpg);
         height: 100%;
@@ -79,6 +83,22 @@
        color: #4b5847;
        font-size: 1.5rem;
        font-family: 'Lato', sans-serif;
+       padding-left: 2%;
+   }
+
+   .card-span {
+       font-size: 1.1rem;
+       padding-top: 2%;
+       padding-right: 2%;
+   }
+
+   .description-style {
+       font-family: 'PT Sans Narrow', sans-serif;
+       color: #4b5847;
+   }
+
+   .uk-link, a {
+       color: #4b5847!important;
    }
 
    .parallax3 {
@@ -90,6 +110,54 @@
         background-repeat: no-repeat;
    }
 
+   .linkedin-action-dark {
+        font-family: 'Lato', sans-serif;
+        color: #4b5847;
+        font-size: 3rem;
+        padding-top: 20%;
+        padding-left: 5%;
+   }
+
+   .linkedin-action {
+        font-family: 'Lato', sans-serif;
+        color: #f8f8f8;
+        font-size: 3rem;
+        padding-top: 10%;
+        padding-right: 5%;
+
+   }
+
+   .icon-style {
+       padding-left: 2%;
+       color: #f8f8f8!important;
+   }
+
+   .footer-style {
+       background-color: #4b5847!important;
+       color: #f8f8f8!important;
+       font-size: 3rem;
+       height: 15vh;
+   }
+
+   .footer-paragraph {
+       margin-left: 5%;
+   }
+
+   .footer-button-margin {
+       margin: 0 5% 2% 0;
+   }
+
+   .footer-button-style {
+       border: 2px solid #f8f8f8;
+       border-radius: 5%;
+       color: #f8f8f8;
+       font-size: 1.5rem;
+   }
+
+   .mail-icon-style {
+       padding-right: 2%;
+   }
+
 
    /* Responsive */
    @media only screen and (max-device-width: 640px) {
@@ -97,10 +165,6 @@
         font-size: 1.1rem!important;
         font-weight: 400;
     }
-    
-    /* .parallax1 {
-      background-attachment: scroll;
-    } */
 
     .first-paragraph {
         font-size: 2rem;
@@ -113,10 +177,6 @@
     .dev-style {
         font-size: 3rem;
     }
-
-    /* .parallax2 {
-        background-attachment: scroll;
-    } */
 
     .my-character {
         font-size: 1.1rem;
@@ -132,7 +192,21 @@
         height: auto;
     }
 
-    /* .parallax3 {
-        background-attachment: scroll;
-    } */
+    .linkedin-action-dark {
+        background-color: #f8f8f8;
+        padding-top: 5%;
+        position: absolute;
+        top: 10%;
+        left: 0;
+    }
+
+    .linkedin-action {
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+
+    .footer-style {
+        font-size: 1.2rem;
+    }
   }
