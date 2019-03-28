@@ -1,0 +1,103 @@
+/* font-family: 'Lato', sans-serif;
+   font-family: 'PT Sans Narrow', sans-serif;
+   color: #4b5847 */
+   .nav-style {
+       font-family: 'Lato', sans-serif!important;
+       font-size: 2rem!important;
+       color: #4b5847!important;
+       font-weight: bold;
+   }
+
+   .parallax1 {
+        background-image: url(../img/girl.jpg);
+        height: 100%;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   .first-paragraph {
+       position: absolute;
+       right: 10%;
+       top: 10%;
+       font-family: 'Lato', sans-serif;
+       font-size: 7rem;
+       color: #f8f8f8;
+   }
+
+   .sec-paragraph {
+       position: absolute;
+       left: 40%;
+       top: 50%;
+       font-family: 'Lato', sans-serif;
+       font-size: 7rem;
+       color: #f8f8f8;
+   }
+
+   .dev-style {
+       font-family: 'Lato', sans-serif!important;
+       font-size: 7rem;
+       color: #4b5847;
+   }
+
+   .parallax2 {
+        background-image: url(../img/field.jpg);
+        height: 100%;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+   }
+
+   .my-card-style {
+       background-color: rgba(50, 250, 250, 0);
+       box-shadow: none;
+   }
+
+   .my-character {
+       font-family: 'Lato', sans-serif;
+       color: #f8f8f8;
+       font-size: 3rem;
+       margin-top: 35px;
+   }
+
+   .work-heading {
+       background-color: #4b5847;
+       font-family: 'Lato', sans-serif;
+       color: #f8f8f8;
+       font-size: 3rem;
+   }
+
+   .box-style {
+       min-height: 300px;
+   }
+
+   .my-overlay {
+       color: #4b5847;
+       font-size: 1.5rem;
+       font-family: 'Lato', sans-serif;
+   }
+
+   .parallax3 {
+        background-image: url(../img/equinox.jpg);
+        height: 100%;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+   }
+
+
+   /* Responsive */
+   @media only screen and (max-device-width: 640px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+
+    .dev-style {
+        font-size: 3rem;
+    }
+  }
