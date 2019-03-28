@@ -93,11 +93,46 @@
 
    /* Responsive */
    @media only screen and (max-device-width: 640px) {
-    .parallax {
+    .nav-stile {
+        font-size: 1.1rem!important;
+        font-weight: 400;
+    }
+    
+    /* .parallax1 {
       background-attachment: scroll;
+    } */
+
+    .first-paragraph {
+        font-size: 2rem;
+    }
+
+    .sec-paragraph{
+        font-size: 2rem;
     }
 
     .dev-style {
         font-size: 3rem;
     }
+
+    /* .parallax2 {
+        background-attachment: scroll;
+    } */
+
+    .my-character {
+        font-size: 1.1rem;
+        margin-top: 2%;
+    }
+
+    .work-heading {
+        font-size: 1.5rem;
+    }
+
+    .box-style {
+        max-width: 100vh;
+        height: auto;
+    }
+
+    /* .parallax3 {
+        background-attachment: scroll;
+    } */
   }
