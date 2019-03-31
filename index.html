@@ -50,36 +50,35 @@
         <p class="uk-width-1-2@s uk-text-center uk-margin-auto uk-margin-auto-vertical dev-style" uk-parallax="target: #parallax-filter; blur: 0,10;">Frontend developer</p>
     </div>
     
-    <div class="uk-height-viewport parallax2">
+    <div class="uk-container-1-1@s parallax2">
         <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
             <div>
                 <div class="uk-card uk-card-default uk-card-body my-card-style" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <p class="uk-height-small@s uk-text-center my-character">...passionate</p>
+                    <p class="uk-height-small@m uk-text-center my-character">...passionate</p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body my-card-style" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-            <p class="uk-height-small@s uk-text-center my-character">...responsible</p>
+            <p class="uk-height-small@m uk-text-center my-character">...responsible</p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body my-card-style" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-                    <p class="uk-height-small@s uk-text-center my-character">...careful</p>
+                    <p class="uk-height-small@m uk-text-center my-character">...careful</p>
                 </div>
             </div>
             <div>
                 <div class="uk-card uk-card-default uk-card-body my-card-style" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-                    <p class="uk-height-small@s uk-text-center my-character">...persistant</p>
+                    <p class="uk-height-small@m uk-text-center my-character">...persistant</p>
                 </div>
             </div>
-        </div>
-        <div class="uk-child-width-1-2@s  uk-flex-center" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 1000; repeat: true">
             <div>
-                <div class="uk-card uk-card-default uk-card-body my-card-style">
-                    <p class="uk-height-small@s uk-text-center my-character">...curious</p>
+                <div class="uk-card uk-card-default uk-card-body uk-position-bottom-center uk-position-center@m my-card-style" uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true">
+                    <p class="uk-height-small@m uk-text-center my-character">...curious</p>
                 </div>
             </div>
         </div>
+        
     </div>
     <div id="my-work" class="uk-container uk-width-1-1 work-heading">
         <p>This is my work...</p>
@@ -149,18 +148,24 @@
     </div>
     <div class="parallax3">
         <p class="uk-width-1-1 linkedin-action-dark">Wanna know more about me?</p>
-        <a href="https://www.linkedin.com/in/julijanaugrinov/" target="_blank">
-            <p class="uk-width-1-1 uk-text-right linkedin-action">See my linkedin profile<span uk-icon="icon: linkedin; ratio: 3" class="icon-style"></span></p>
-        </a>
+        <p class="uk-width-1-1 uk-text-right linkedin-action">See my linkedin and facebook profile.</p>
     </div>
-    <footer class="uk-position-relative">
-        <div id="contact" class="uk-container-1-1@s uk-flex uk-flex-wrap footer-style">
-            <p class="uk-position-center-left footer-paragraph">If you are interested in collaboration, don't hesitate</p>
-            <a href="mailto:jugrinov@gmail.com" class="uk-position-bottom-right footer-button-margin">
-                <button class="uk-button uk-button-default footer-button-style">
-                    <span uk-icon="icon: mail; ratio: 1.5" class="mail-icon-style"></span>Contact me!
-                </button>
-            </a>
+    <footer class="uk-position-relative uk-responsive-height">
+        <div id="contact" class="uk-container-1-1 footer-style" uk-grid>
+            <div>
+                <p class="footer-paragraph">If you are interested in collaboration, don't hesitate, contact me!</p>
+            </div>
+            <div class="uk-flex uk-flex-around">
+                <a href="https://www.linkedin.com/in/julijanaugrinov/" target="_blank">
+                    <span uk-icon="icon: linkedin; ratio: 2" class="icon-style"></span>
+                </a>
+                <a href="mailto:jugrinov@gmail.com" class="footer-button-margin">
+                    <span uk-icon="icon: mail; ratio: 2" class="icon-style"></span>
+                </a>
+                <a href="https://www.facebook.com/julijana.ugrinov" target="_blank">
+                    <span uk-icon="icon: facebook; ratio: 2" class="icon-style"></span>
+                </a>
+            </div>
         </div>
     </footer>
 </body>

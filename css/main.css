@@ -59,13 +59,14 @@
    .my-card-style {
        background-color: rgba(50, 250, 250, 0);
        box-shadow: none;
+       min-height: 150px;
    }
 
    .my-character {
        font-family: 'Lato', sans-serif;
        color: #f8f8f8;
        font-size: 3rem;
-       margin-top: 35px;
+       /* margin-top: 35px; */
    }
 
    .work-heading {
@@ -136,7 +137,8 @@
        background-color: #4b5847!important;
        color: #f8f8f8!important;
        font-size: 3rem;
-       height: 15vh;
+       display: block;
+       min-height: 15vh;
    }
 
    .footer-paragraph {
@@ -153,11 +155,6 @@
        color: #f8f8f8;
        font-size: 1.5rem;
    }
-
-   .mail-icon-style {
-       padding-right: 2%;
-   }
-
 
    /* Responsive */
    @media only screen and (max-device-width: 640px) {
@@ -180,7 +177,6 @@
 
     .my-character {
         font-size: 1.1rem;
-        margin-top: 2%;
     }
 
     .work-heading {
@@ -208,6 +204,6 @@
 
     .footer-style {
         font-size: 1.2rem;
-        height: 30vh;
+        min-height: 30vh;
     }
   }
