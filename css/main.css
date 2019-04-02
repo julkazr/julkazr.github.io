@@ -14,7 +14,7 @@
 
    .parallax1 {
         background-image: url(../img/girl.jpg);
-        height: 100%;
+        height: 800px;
         position: relative;
         background-attachment: fixed;
         background-position: center;
@@ -48,7 +48,7 @@
 
    .parallax2 {
         background-image: url(../img/field.jpg);
-        height: 100%;
+        height: 800px;
         position: relative;
         background-attachment: fixed;
         background-position: center;
@@ -179,23 +179,17 @@
         font-size: 1.5rem;
     }
 
-    .box-style {
+    /* .box-style {
         max-width: 100vh;
         height: auto;
-    }
+    } */
 
     .linkedin-action-dark {
-        background-color: #f8f8f8;
-        padding-top: 5%;
-        position: absolute;
-        top: 10%;
-        left: 0;
+        font-size: 2rem;
     }
 
     .linkedin-action {
-        position: absolute;
-        top: 50%;
-        left: 0;
+        font-size: 2rem;
     }
 
     .footer-style {
