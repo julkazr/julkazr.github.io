@@ -57,7 +57,7 @@
    }
 
    .my-card-style {
-       background-color: rgba(50, 250, 250, 0);
+       background-color: rgba(250, 250, 250, 0);
        box-shadow: none;
        min-height: 150px;
    }
@@ -186,6 +186,7 @@
 
     .linkedin-action-dark {
         font-size: 2rem;
+        background-color: rgba(250, 250, 250, 0.4);
     }
 
     .linkedin-action {
