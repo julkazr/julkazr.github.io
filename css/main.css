@@ -179,6 +179,10 @@
         font-size: 1.5rem;
     }
 
+    .paragraph-style {
+        font-size: 0.9rem!important;
+    }
+
     /* .box-style {
         max-width: 100vh;
         height: auto;
