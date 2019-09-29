@@ -76,6 +76,16 @@
        font-size: 3rem;
    }
 
+   .third-paragraph {
+       font-size: 1.3rem;
+   }
+   
+   .gallery-container {
+    display: block;
+    width: 60vw;
+    margin: 0 auto;
+}
+
    .box-style {
        min-height: 300px;
    }
@@ -179,9 +189,6 @@
         font-size: 1.5rem;
     }
 
-    .paragraph-style {
-        font-size: 0.9rem!important;
-    }
 
     /* .box-style {
         max-width: 100vh;
