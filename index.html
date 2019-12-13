@@ -153,7 +153,39 @@
         I'm using ASP.NET MVC5, along with Entity6 Code first approach. 
         Here's a gallery of pictures for this app, and if you want to see the code, please visit my <a href="https://github.com/julkazr/DoctorsOffice" target="_blank">Github account</a>.
     </p>
-    <div class="gallery-container">
+    <div class="uk-child-width-1-3@s uk-grid-match uk-flex-center" uk-grid>
+        <div>
+            <div class="uk-card uk-card-hover@s uk-card-body boundary-align1">
+                <img src="img/Home page1.png" alt="doctorsoffice homepage">
+                <div class="uk-overlay uk-overlay-default uk-position-bottom">
+                    <p class="my-overlay">DoctorsOfficeApp<span class="uk-align-right card-span">Learn more...</span></p>
+                </div>
+                <div uk-drop="pos: bottom-justify; boundary: .boundary-align1; boundary-align: true dropbar: true; dropbar-mode: push">
+                    <div class="uk-card uk-card-body uk-card-default">
+                        <p class="description-style">
+                            This application is build as study project. Main goal was to learn how MVC and Entity works, 
+                            and resolve all kind of problems that comes along... In this project I learned everything 
+                            I currently know about ASP.NET MVC 5 and Entity Framework 6
+                        </p>
+                        <p class="description-style">
+                            This application is  for doctors office records. Someone must be registrated and loggedin 
+                            user to see records about doctors, patients or examinations records. User must be email 
+                            confermed. Also forgot password functionality is enabled. All entities (doctor, patient and Examination) 
+                            can be created, edited or deleted. There is possibility of image upload for doctor,
+                            or multiple files upload for examination. The app is hosted on Azure and uses its sql database.
+                        </p>
+                        <a href="https://doctorsoffice20191212050314.azurewebsites.net/" target="_blank">
+                            <p class="description-style">See demo...</p>
+                        </a>
+                        <a href="https://github.com/julkazr/DoctorsOffice" target="_blank">
+                            <p class="description-style">See code...</p>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- <div class="gallery-container">
         <div class="uk-position-relative uk-visible-toggle uk-light gallery-container" tabindex="-1" uk-slideshow="animation: fade">
 
             <ul class="uk-slideshow-items">
@@ -205,7 +237,7 @@
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         
         </div>
-    </div>
+    </div> -->
     <div class="parallax3">
         <p class="uk-width-1-1 linkedin-action-dark">Wanna know more about me?</p>
         <p class="uk-width-1-1 uk-text-right linkedin-action">See my linkedin and facebook profile.</p>
